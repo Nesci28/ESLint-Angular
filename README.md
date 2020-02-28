@@ -9,6 +9,8 @@ npm install --save-dev eslint eslint-config-prettier eslint-plugin-import eslint
 ```
 
 ### Configurations
+__Create those files in the root folder of the project__
+
 .eslintrc
 ```json
 {
