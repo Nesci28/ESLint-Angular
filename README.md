@@ -3,9 +3,9 @@ __How to add ESLint AirBnB to an Angular project__
 
 ### Install
 ```bash
-yarn add -D eslint eslint-config-prettier eslint-plugin-import eslint-config-airbnb-angular @typescript-eslint/eslint-plugin @typescript-eslint/parser
+yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-import eslint-config-airbnb-angular @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
-npm install --save-dev eslint eslint-config-prettier eslint-plugin-import eslint-config-airbnb-angular @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-import eslint-config-airbnb-angular @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 ### Configurations
