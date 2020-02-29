@@ -18,7 +18,8 @@ __Create those files in the root folder of the project__
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": ["error"],
-
+    "no-useless-constructor": 0,
+    "no-empty-function": 0,
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -49,6 +50,11 @@ package.json
     "lint:check": "eslint 'src/**/*.ts'"
   }
 }
+```
+
+./src/main.ts
+```js
+/* eslint no-console: 0 */
 ```
 
 
